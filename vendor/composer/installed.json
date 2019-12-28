@@ -1,0 +1,56 @@
+[
+    {
+        "name": "cloudinary/cloudinary_php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cloudinary/cloudinary_php.git",
+            "reference": "aa0cef2fb1aff0695f3a880800cf343f1080557f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/aa0cef2fb1aff0695f3a880800cf343f1080557f",
+            "reference": "aa0cef2fb1aff0695f3a880800cf343f1080557f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.*"
+        },
+        "time": "2019-12-15T17:17:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src"
+            ],
+            "files": [
+                "src/Helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cloudinary",
+                "homepage": "https://github.com/cloudinary/cloudinary_php/graphs/contributors"
+            }
+        ],
+        "description": "Cloudinary PHP SDK",
+        "homepage": "https://github.com/cloudinary/cloudinary_php",
+        "keywords": [
+            "cdn",
+            "cloud",
+            "cloudinary",
+            "image management",
+            "sdk"
+        ]
+    }
+]
